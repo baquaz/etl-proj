@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    //testCompile 'junit:junit:4.12'
+	compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.2'
+	compile 'org.jsoup:jsoup:1.10.1'
+	compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.5'
+    
+}
